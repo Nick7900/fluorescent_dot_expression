@@ -31,7 +31,8 @@ The output that we can see is from a zoomed-in region inside the red frame.
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_frame](https://user-images.githubusercontent.com/70948370/178108437-d929f0c7-44a9-4e66-afda-ecac4c60a429.jpg)
 
 
-Zoom in image within the red frame
+Image is magnified inside the red frame.
+
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop](https://user-images.githubusercontent.com/70948370/178103656-6c2a635a-7cc3-4cbb-b9f8-5621f90aed5f.png)
 
 Output of the overlay image. 
