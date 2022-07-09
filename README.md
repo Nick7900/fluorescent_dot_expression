@@ -19,7 +19,9 @@ Before starting, you will need the following:
 There are five folders in this repository.
 
 
-![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_frame](https://user-images.githubusercontent.com/70948370/178103701-7c2fbbaf-6ad0-4f15-bd97-d5774bf28f80.jpg)
+![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_frame](https://user-images.githubusercontent.com/70948370/178103701-7c2fbbaf-6ad0-4f15-bd97-d5774bf28f80.jpg=250x250)
+
+
 
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop](https://user-images.githubusercontent.com/70948370/178103656-6c2a635a-7cc3-4cbb-b9f8-5621f90aed5f.png)
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop_number](https://user-images.githubusercontent.com/70948370/178103658-9b12c4fb-bfc6-4d40-8c2f-386e06994ac7.png)
