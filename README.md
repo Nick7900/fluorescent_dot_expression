@@ -1,7 +1,6 @@
 # Quantify fluorescent dot expression 
 Demonstration of how to analyze the total fluorescent dot expression of the delineated green fluorescent Oprk1 dot images.
-- We have created a custom MATLAB scrip to analyse fluorescent dot expression images automatically
- 
+- We have created custom MATLAB scrips to visualize, analyze and quantify fluorescent dot expression from RNAscope stained tissue
 
 If using this code or dataset, please cite:
 
@@ -17,7 +16,7 @@ Before starting, you will need the following:
 
 ## Code Guideline
 
-There are five folders in this repository.
+There are one folder in this repository.
 
 
 
