@@ -44,3 +44,6 @@ Fluorescence dot expression has been quantitatively counted.
 Notice: White circles have been used to highlight areas that are greater than 16 µm^2, and these areas count as 2 dot expressions instead of 1 dot expression.
 
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop_number](https://user-images.githubusercontent.com/70948370/178103658-9b12c4fb-bfc6-4d40-8c2f-386e06994ac7.png)
+
+## Contact
+If you have any questions or suggestions, you can reach Nick via e-mail at nylarsen@clin.au.dk or Maiken via e-mail at mkm@clin.au.dk.
