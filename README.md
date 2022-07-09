@@ -18,6 +18,32 @@ Before starting, you will need the following:
 
 There are one folder in this repository.
 
+AutoCUTSAnalysis includes scripts implemented on a test collection of 50 images(will be available after publication of article) that involve the following steps:
+- Align sections
+- Crop aligned stack where only tissue appears
+- Using the UNetDense architecture to segment cells, the region of interest could then be defined based on a density map of centroids.
+
+
+## Pipeline to analysed fluorescent dot expression
+In this repository, we demonstrate how to analyze tissue from the hypothalamus of a rat that has been stained with RNAscope.
+The code is generic and be used on any tissue to detect fluorescent dot expression.
+Two images are included in this demonstration and are located in the Images folder.
+
+Prior to running the code, you must specify the image resolution in pixels/µm and set an Area (m2) threshold for determining when to count two expressions instead of one.
+- When running the code, set the 
+- The code will work automaticali when you press the run bottom.
+
+2. Run 'aAlignAuto' and images will be aligned.
+
+3. Run 'bCropToDeepLearning' to crop areas that only include tissue
+
+4. After the images from 'bCropToDeepLearning' have been segmented with the UNetDense architecture, then run 'cCropLayer3' region of interest for analysis.
+
+5. Run 'dPredicSegmentation' to do the 3D-reconstruction of neurons and get morphological measurements out.
+
+6. Run 'eHistogramDataPlot' to read the output from 'dPredicSegmentationFinal' to estimate mean, standard deviation, coefficient of variation and plot histograms.
+
+
 
 
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_frame](https://user-images.githubusercontent.com/70948370/178108437-d929f0c7-44a9-4e66-afda-ecac4c60a429.jpg)
@@ -25,5 +51,5 @@ There are one folder in this repository.
 
 
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop](https://user-images.githubusercontent.com/70948370/178103656-6c2a635a-7cc3-4cbb-b9f8-5621f90aed5f.png)
-![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop_number](https://user-images.githubusercontent.com/70948370/178103658-9b12c4fb-bfc6-4d40-8c2f-386e06994ac7.png)
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop_overlay](https://user-images.githubusercontent.com/70948370/178103662-d6172ad2-4e65-4d27-a303-9a5987d291df.png)
+![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop_number](https://user-images.githubusercontent.com/70948370/178103658-9b12c4fb-bfc6-4d40-8c2f-386e06994ac7.png)
