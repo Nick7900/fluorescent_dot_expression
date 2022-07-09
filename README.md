@@ -45,7 +45,5 @@ Notice: White circles have been used to highlight areas that are greater than 16
 
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop_number](https://user-images.githubusercontent.com/70948370/178103658-9b12c4fb-bfc6-4d40-8c2f-386e06994ac7.png)
 
-
-![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop_super](https://user-images.githubusercontent.com/70948370/178111347-2e81ca5b-4b6b-4389-aa91-73e1d3524e03.png)
 ## Contact
 If you have any questions or suggestions, you can reach Nick via e-mail at nylarsen@clin.au.dk or Maiken via e-mail at mkm@clin.au.dk.
