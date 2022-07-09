@@ -6,7 +6,7 @@ If using this code or dataset, please cite:
 
 Krogsbaek M, Larsen NY, Landau A, Sanchez C, Lin J and Nyengaard JR. "Spatial quantification of single cell mRNA and ligand binding of the kappa opioid receptor in rat hypothalamus".
 
-Note the paper is not published yet.
+**Note the paper is not published yet.**
 
 ## Requirements 
 Before starting, you will need the following:
