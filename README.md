@@ -21,20 +21,23 @@ Two images are included in this demonstration and are located in the Images fold
 
 ### How to run the code
 1. Both MATLAB files (PipelineDotExpression.m and analyzeDotExpressionFnc.m) should be placed just outside the Images folder before running the code.
-2. pipelineDotExpression.m is the main file and you need to specify the image resolution in pixels/µm and set an Area (m2) threshold for determining when to count two expressions instead of one.
+2. pipelineDotExpression.m is the main file and you need to specify the image resolution in pixels/µm and set an Area (µm^2) threshold for determining when to count two expressions instead of one.
+  - In our case the values are set to be 6.2 pixels/µm and 16 µm^2
 3. When the code is executed, images (Number Count, Overlay and Superimposed) and an Excel file that counts the number of dot expressions for each image will be exported.
 
-## Example
-AutoCUTSAnalysis includes scripts implemented on a test collection of 50 images(will be available after publication of article) that involve the following steps:
-Align sections
-Crop aligned stack where only tissue appears
-Using the UNetDense architecture to segment cells, the region of interest could then be defined based on a density map of centroids.
-Filtering small cells away with k-means and reconstruct neurons in 3D.
-
+## Visualize output Example
+In this example, the code is being used on the image "Brain 03 OPRK1, sect 10, L5 x 63 left hypo SI." 
+The output that we can see is from a zoomed-in region inside the red frame.
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_frame](https://user-images.githubusercontent.com/70948370/178108437-d929f0c7-44a9-4e66-afda-ecac4c60a429.jpg)
 
 
-
+Zoom in image within the red frame
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop](https://user-images.githubusercontent.com/70948370/178103656-6c2a635a-7cc3-4cbb-b9f8-5621f90aed5f.png)
+
+Output of the overlay image. 
+In the overlay image, the background is a grayscale image, and red lines are used to highlight the boundaries of each fluorescence dot expression.
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop_overlay](https://user-images.githubusercontent.com/70948370/178103662-d6172ad2-4e65-4d27-a303-9a5987d291df.png)
+
+Fluorescence dot expression has been quantitatively counted.
+Notice: White circles have been used to highlight areas that are greater than 16 µm^2, and these areas count as 2 dot expressions instead of 1 dot expression.
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop_number](https://user-images.githubusercontent.com/70948370/178103658-9b12c4fb-bfc6-4d40-8c2f-386e06994ac7.png)
