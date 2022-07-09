@@ -15,36 +15,21 @@ Before starting, you will need the following:
 - Install [Signal processing toolbox](https://se.mathworks.com/products/signal.html) before running the code. 
 
 ## Code Guideline
-
-There are one folder in this repository.
-
-AutoCUTSAnalysis includes scripts implemented on a test collection of 50 images(will be available after publication of article) that involve the following steps:
-- Align sections
-- Crop aligned stack where only tissue appears
-- Using the UNetDense architecture to segment cells, the region of interest could then be defined based on a density map of centroids.
-
-
-## Pipeline to analysed fluorescent dot expression
 In this repository, we demonstrate how to analyze tissue from the hypothalamus of a rat that has been stained with RNAscope.
 The code is generic and be used on any tissue to detect fluorescent dot expression.
 Two images are included in this demonstration and are located in the Images folder.
 
-Prior to running the code, you must specify the image resolution in pixels/µm and set an Area (m2) threshold for determining when to count two expressions instead of one.
-- When running the code, set the 
-- The code will work automaticali when you press the run bottom.
+### How to run the code
+1. Both MATLAB files (PipelineDotExpression.m and analyzeDotExpressionFnc.m) should be placed just outside the Images folder before running the code.
+2. pipelineDotExpression.m is the main file and you need to specify the image resolution in pixels/µm and set an Area (m2) threshold for determining when to count two expressions instead of one.
+3. When the code is executed, images (Number Count, Overlay and Superimposed) and an Excel file that counts the number of dot expressions for each image will be exported.
 
-2. Run 'aAlignAuto' and images will be aligned.
-
-3. Run 'bCropToDeepLearning' to crop areas that only include tissue
-
-4. After the images from 'bCropToDeepLearning' have been segmented with the UNetDense architecture, then run 'cCropLayer3' region of interest for analysis.
-
-5. Run 'dPredicSegmentation' to do the 3D-reconstruction of neurons and get morphological measurements out.
-
-6. Run 'eHistogramDataPlot' to read the output from 'dPredicSegmentationFinal' to estimate mean, standard deviation, coefficient of variation and plot histograms.
-
-
-
+## Example
+AutoCUTSAnalysis includes scripts implemented on a test collection of 50 images(will be available after publication of article) that involve the following steps:
+Align sections
+Crop aligned stack where only tissue appears
+Using the UNetDense architecture to segment cells, the region of interest could then be defined based on a density map of centroids.
+Filtering small cells away with k-means and reconstruct neurons in 3D.
 
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_frame](https://user-images.githubusercontent.com/70948370/178108437-d929f0c7-44a9-4e66-afda-ecac4c60a429.jpg)
 
