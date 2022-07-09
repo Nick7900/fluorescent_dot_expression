@@ -22,7 +22,7 @@ Two images are included in this demonstration and are located in the Images fold
 ### How to run the code
 1. Both MATLAB files (PipelineDotExpression.m and analyzeDotExpressionFnc.m) should be placed just outside the Images folder before running the code.
 2. pipelineDotExpression.m is the main file and you need to specify the image resolution in pixels/µm and set an Area (µm^2) threshold for determining when to count two expressions instead of one.
-  - In our case the values are set to be 6.2 pixels/µm and 16 µm^2
+  - In our case the values are set to be 6.2 pixels/µm and 16 µm^2 based on pipeline optimization images
 3. When the code is executed, images (Number Count, Overlay and Superimposed) and an Excel file that counts the number of dot expressions for each image will be exported.
 
 ## Visualize output Example
