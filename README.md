@@ -20,7 +20,7 @@ There are five folders in this repository.
 
 
 
-![]([https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://your-image-url.type](https://user-images.githubusercontent.com/70948370/178103701-7c2fbbaf-6ad0-4f15-bd97-d5774bf28f80.jpg) =250x250)
+![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_frame](https://user-images.githubusercontent.com/70948370/178108437-d929f0c7-44a9-4e66-afda-ecac4c60a429.jpg = 250x)
 
 
 
