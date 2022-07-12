@@ -36,14 +36,14 @@ The output that we can see is from a zoomed-in region inside the red frame.
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop](https://user-images.githubusercontent.com/70948370/178103656-6c2a635a-7cc3-4cbb-b9f8-5621f90aed5f.png)
 
 **Output of the overlay image.** 
+
 In the overlay image, the background is a grayscale image, and red lines are used to highlight the boundaries of each fluorescence dot expression.
 
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop_overlay](https://user-images.githubusercontent.com/70948370/178103662-d6172ad2-4e65-4d27-a303-9a5987d291df.png)
 
 **Fluorescence dot expression has been quantitatively counted.**
-Notice: 
 
-White circles have been used to highlight areas that are greater than 16 µm^2, and these areas count as 2 dot expressions instead of 1 dot expression.
+Notice: White circles have been used to highlight areas that are greater than 16 µm^2, and these areas count as 2 dot expressions instead of 1 dot expression.
 
 ![Brain 03_OPRK1, sect 10, L5 x63 left hypo SI_crop_number](https://user-images.githubusercontent.com/70948370/178103658-9b12c4fb-bfc6-4d40-8c2f-386e06994ac7.png)
 
